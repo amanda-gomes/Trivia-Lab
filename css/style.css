@@ -1,0 +1,94 @@
+body {
+  background-color:#F8B195;
+  font-family: 'Quicksand', sans-serif;
+  color: #355C7D;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+
+.detalhe {
+  display:flex;
+  align-items:center;
+  box-shadow: 0 8px 6px -6px #355C7D;
+}
+
+
+
+span {
+  color:yellow;
+  text-shadow: 2px 2px #6C5B7B;
+}
+
+.ball{
+  background-color:#F67280;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position:relative;
+  left: 4px;
+  box-shadow: 0 8px 6px -6px #355C7D;
+  }
+
+
+button {
+    font-family: inherit;
+    background: 0 0 #F3F3F3;
+    border: 1px solid yellow;
+    border-radius: 3px;
+    color: #2f323a;
+    font-size: 16px;
+    line-height: inherit;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    padding: 15px;
+    margin: 10px 5px;
+    box-shadow: 0 8px 6px -6px #C06C84;
+}
+
+.heart {
+    background-color: yellow;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 6px;
+    right: 56px;
+    transform: rotate(-45deg);
+    width: 30px;    
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: yellow;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:before {
+  top: -15px;
+  left: 0;
+}
+
+.heart:after {
+  left: 15px;
+  top: 0;
+}
+
+.wrong {
+  color:red;
+}
+
+.right {
+  color:green;
+}
+
+
+

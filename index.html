@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trívia da Lab</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="detalhe">
+            <h1>Trivia da <span>
+                    <</span>Lab <span>>
+                </span></h1>
+            <div class="ball"></div>
+            <div class="heart"></div>
+        </div>
+        <div class="apresentacao">
+            <h2>Hoje é dia de testar seus conhecimentos!</h2>
+            <button onclick="comecar()">Iniciar Quiz</button>
+            <h3></h3>
+
+        </div>
+        <div class="painel" id="botoes">
+            <h2 id="h2"> </h2>
+            <!--  <button onclick="animais()">Animais</button>
+            <button onclick="comida()">Comida</button> -->
+        </div>
+
+        <div id="resultados" class="resultados">
+            <h1 id="tituloResult"></h1>
+            <p id="p1" class="right"></p>
+            <p id="p1wrong" class="wrong"></p>
+            <p id="p2" class="right"></p>
+            <p id="p2wrong" class="wrong"></p>
+            <p id="p3" class="right"></p>
+            <p id="p3wrong" class="wrong"></p>
+            <p id="score"> </p>
+            <p id="botaoReset"></p>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
